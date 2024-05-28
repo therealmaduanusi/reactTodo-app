@@ -72,3 +72,13 @@ li {
   padding: 2rem;
   font-size: 3.5rem;
 }
+
+.items {
+  display: flex;
+  justify-content: space-between;
+}
+.deleteBtn {
+  padding-bottom: 0;
+  background-color: #ffeaa734;
+  /* padding: 0.2rem 0.5rem; */
+}

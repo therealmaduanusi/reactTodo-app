@@ -9,11 +9,18 @@ function TodoItem(props) {
         })
     }
     return (
-        <div>
+        <div className='items'>
             <li 
                 style={{textDecoration: isDone ? 'line-through' : null}} 
                 onClick={checkItem} 
             >{props.item}</li>
+            <button 
+                onClick={() => {
+                    props.deleteItem(props.id)
+                }}
+                className='deleteBtn'>
+                <span>delete</span>
+            </button>
         </div>
     )
 }
