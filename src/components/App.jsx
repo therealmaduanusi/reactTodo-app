@@ -10,12 +10,16 @@ function App() {
   }
 
   function addItem() {
-    setItems((prevValue) => {
-      return [
-        ...prevValue,
-        inputText
-      ]
-    })
+    if (inputText === '') {
+      alert('enter something')
+    } else {
+      setItems((prevValue) => {
+        return [
+          ...prevValue,
+          inputText
+        ]
+      })
+    }
     setInputText('')
   }
 
