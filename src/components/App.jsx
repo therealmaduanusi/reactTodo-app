@@ -8,7 +8,7 @@ function App() {
     let handleValue = event.target.value;
     setInputText(handleValue)
   }
-  let arr = []
+  
   function addItem() {
     if (inputText.trim() == '') {
       alert('enter something')
