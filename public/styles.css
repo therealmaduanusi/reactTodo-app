@@ -1,7 +1,6 @@
 body {
   margin-top: 50px;
   background-color: #ffeaa7;
-  padding: 1rem;
   box-sizing: border-box;
   color: hsl(198, 1%, 29%);
   font-family: "Architects Daughter", cursive;
@@ -9,11 +8,9 @@ body {
 }
 
 .container {
-  width: 100%;
   margin: auto;
-  min-height: 500px;
-  max-width: 700px;
-  min-width: 250px;
+  min-height: 50rem;
+  min-width: 500px;
   background: #f1f5f8;
   background-image: radial-gradient(#bfc0c1 7.2%, transparent 0);
   background-size: 25px 25px;
@@ -39,13 +36,13 @@ body {
 .form input {
   box-sizing: border-box;
   background-color: transparent;
-  padding: 0.7rem;
+  padding: 2rem;
   border-bottom-right-radius: 15px 3px;
   border-bottom-left-radius: 3px 15px;
   border: solid 3px transparent;
   border-bottom: dashed 3px #fdcb6e;
   font-family: "Architects Daughter", cursive;
-  font-size: 1rem;
+  font-size: 2rem;
   color: hsla(260, 2%, 25%, 0.7);
   width: 70%;
   margin-bottom: 20px;
@@ -73,5 +70,5 @@ li {
   text-align: left;
   position: relative;
   padding: 0.5rem;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
 }
