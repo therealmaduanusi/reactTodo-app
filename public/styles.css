@@ -6,14 +6,13 @@ body {
   color: hsl(198, 1%, 29%);
   font-family: "Architects Daughter", cursive;
   text-align: center;
-  font-size: 130%;
 }
 
 .container {
   width: 100%;
   margin: auto;
   min-height: 500px;
-  max-width: 550px;
+  max-width: 700px;
   min-width: 250px;
   background: #f1f5f8;
   background-image: radial-gradient(#bfc0c1 7.2%, transparent 0);
@@ -34,7 +33,7 @@ body {
   padding: 0.2rem 1.2rem;
   border-radius: 20% 5% 20% 5%/5% 20% 25% 20%;
   background-color: #fdcb6e;
-  font-size: 1.5rem;
+  font-size: 3rem;
 }
 
 .form input {
@@ -67,10 +66,12 @@ button span {
   padding: 0.5rem 1rem;
   border-radius: 5px;
   border: 2px solid hsl(198, 1%, 29%);
+  font-size: 30px;
 }
 
 li {
   text-align: left;
   position: relative;
   padding: 0.5rem;
+  font-size: 1.5rem;
 }
