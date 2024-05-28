@@ -8,9 +8,9 @@ function App() {
     let handleValue = event.target.value;
     setInputText(handleValue)
   }
-
+  let arr = []
   function addItem() {
-    if (inputText === '') {
+    if (inputText.trim() == '') {
       alert('enter something')
     } else {
       setItems((prevValue) => {
